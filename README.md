@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Twitter clone frontend built using ReactJS, React Router and TailwindCSS. [WEBSITE](https://reddit-client-nu.vercel.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is the frontend for a Fullstack Twitter Clone. (This project along with the server was earlier a monorepo which has been seperated into individual repositories for deployment. Checkout [this](https://github.com/prajotsurey/fullstack-twitter-clone) repository for the mono repo structure and old commits.)
 
-## Available Scripts
+## Overview
+This is a replica of the Twitter App. This is the first project I have built after completing the fullstackopen 2021 course. Over the course of making this app I learned how to use Tailwind CSS. I already had a basic idea of building fullstack app but this was my first encounter with complex database structures.
 
-In the project directory, you can run:
+I also learned how to read documentation and find solutions to problems which at first glance seem way too complex and obscure to be solved by a newcomer.
 
-### `npm start`
+I chose Tailwind CSS for this project as I found it to be a very different than any other methodology of writing CSS I had previously encountered. I found it very easy to use and with a gradual learning curve. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Contents
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* [Installation](#user-content-installation)
+* [Usage](#user-content-usage)
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone project
 
-### `npm run build`
+```bash
+git clone https://github.com/prajotsurey/fullstack-twitter-clone-frontend.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install dependencies for API server.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Create a .env file with the following data
+```
+REACT_APP_API_URL=<backend url>
+```
+## Usage
 
-### `npm run eject`
+1. Run the app
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm run start
+```
