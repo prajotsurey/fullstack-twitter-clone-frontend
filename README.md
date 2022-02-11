@@ -2,6 +2,7 @@
 
 This project is the frontend for a Fullstack Twitter Clone. (This project along with the server was earlier a monorepo which has been seperated into individual repositories for deployment. Checkout [this](https://github.com/prajotsurey/fullstack-twitter-clone) repository for the mono repo structure and old commits.)
 
+[Backend Repository](https://github.com/prajotsurey/twitter-server)
 ## Overview
 This is a replica of the Twitter App. This is the first project I have built after completing the fullstackopen 2021 course. Over the course of making this app I learned how to use Tailwind CSS. I already had a basic idea of building fullstack app but this was my first encounter with complex database structures.
 
