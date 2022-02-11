@@ -9,7 +9,7 @@ const Landing = () => {
   // display buttons on top of image in smaller screens
   return(
     <div className="flex flex-col h-screen relative">
-      <div className="flex flex-col flex-shrink flex-grow md:flex-row "> {/* flex row on medium and above screens column on smaller screens */}
+      <div className="flex flex-col h-screen flex-shrink flex-grow md:flex-row "> {/* flex row on medium and above screens column on smaller screens */}
         <div className="md:flex flex-grow bg-gray-200 md:h-full order-last md:order-first bg-landing-left bg-center"> {/* Displayed first in md and above screen sizes. Displayed last on smaller screens */}
           <div className="grid place-items-center h-full w-full">
             <LogoWhite className="fill-current text-white h-4/5 md:h-1/3"/>
