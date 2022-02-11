@@ -16,7 +16,7 @@ const CreateBlog = () => {
   })
 
   const submitForm = async (values) => {
-    const savedBlog = await blogService.createBblog({
+    await blogService.createBblog({
       title: values.title,
       content: values.content,
     })

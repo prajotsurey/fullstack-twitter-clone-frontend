@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import SearchForm from '../SearchForm';
-import newsService from '../../services/newsService';
 import newsObject from '../../utils/newsObject';
 
 const initialValues = {
@@ -78,7 +77,7 @@ const RightSidebar = () => {
               </div>
               <div className="w-1/5">
                 <div className="block bg-primary">
-                  <img src={n.urlToImage} className="rounded-lg w-16 h-16 object-cover"/>
+                  <img src={n.urlToImage} alt="news thumbnail" className="rounded-lg w-16 h-16 object-cover"/>
                 </div>
               </div>
             </div>

@@ -24,7 +24,6 @@ const useStyles = makeStyles(() => ({
 const Post = ({ post , notify}) => {
   const classes = useStyles()
   const [POST, setPost] = useState(post)
-  const history = useHistory()
 
   const handleLike = async (postId,e) => {
     e.stopPropagation()
