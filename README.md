@@ -1,4 +1,4 @@
-# Twitter clone frontend built using ReactJS, React Router and TailwindCSS. [WEBSITE](https://reddit-client-nu.vercel.app/)
+# Twitter clone frontend built using ReactJS, React Router and TailwindCSS. [WEBSITE](https://fullstack-twitter-clone-frontend.vercel.app)
 
 This project is the frontend for a Fullstack Twitter Clone. (This project along with the server was earlier a monorepo which has been seperated into individual repositories for deployment. Checkout [this](https://github.com/prajotsurey/fullstack-twitter-clone) repository for the mono repo structure and old commits.)
 
